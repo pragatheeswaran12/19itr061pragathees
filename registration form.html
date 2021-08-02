@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1>Participant details</h1>
+</head>
+
+<body>
+<form method="get">
+
+ <table  >
+        <tr>
+        <td><b>Name:</b></td>
+        <td><input type="text" name="name"></td>
+        </tr>
+            <tr>
+            <td><b>Date of Birth:</b></td>
+            <td><input type="date" name="DOB"/></td>
+            </tr>
+        <tr>
+                <td><strong>Enter Gender:</strong></td>
+                <td>
+                    <select>
+                         <option value="M">Male</option>
+                        <option value="F">Female</option>
+                        <option value="O">Others</option>
+                    </select>
+                </td>
+            </tr>
+        <tr>
+                <td><b>E-Mail</b></td>
+                <td><input type="email" /></td>
+            </tr>
+            <tr>
+                <td><b>Mobile number</b></td>
+                <td><input type="text" pattern="[0-9]{10}" title="only 10 numbers" /></td>
+            </tr>
+            <tr>
+                <td><b>Address:</b></td>
+                <td><textarea rows="3" cols="22"></textarea></td>
+            </tr>
+
+        <tr>
+                <td><b>State:</b></td>
+                <td>
+                    <select>
+                        <option value="TN">Tamil Nadu</option>
+                        <option value="AD">Andhra Pradesh</option>
+                        <option value="KL">Kerala</option>
+                       
+                    </select>
+                </td>
+            </tr>
+         <tr>
+                <td><b>Pincode:</b></td>
+                <td>
+                    <input type="text" number="Pincode" maxlength="6" />
+                </td>
+
+            </tr>
+          
+         
+         <tr>
+                <td><b>Events Interested:</b></td>
+                <td>
+                    <input type="checkbox" name="events"/>athelete
+                    <input type="checkbox"/>cricket
+                    <input type="checkbox"/>volleyball
+                    
+                </td>
+            </tr>
+            
+          <tr>
+                <td>
+                    <b>Do you want Accomodation?</b>
+                </td>
+                <td>
+                    <input type="radio" name="Accomodation" value="Yes" />Yes
+                    <input type="radio" name="Accomodation" value="No" />No
+                </td>
+            </tr>
+</table>
+           <p align="center"><input type="submit" value="submit" /></p>
+         
+            
+        
+        
+
+
+</form>
+<body>
+<html>
